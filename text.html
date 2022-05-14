@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet"type="text/css"href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <center>
+ <img src="qur.jpg.jpg" id="imo1">
+<fieldset id="fff">
+<legend>Quran</legend>
+<b id="uu">اقرأ معي</b>
+<br>
+<button onclick="e.play()">سورة النصر</button>
+<button onclick="d.play()">سورة المسد</button>
+<button onclick="c.play()">سورة الإخلاص</button>
+<button onclick="b.play()">سورة الفلق</button>
+<button onclick="a.play()">سورة الناس</button>
+<button onclick="q.play()">سورة الفاتحة</button>
+<br>
+<br>
+<button onclick="j.play()">سورة الفيل</button>
+<button onclick="i.play()">سورة قريش</button>
+<button onclick="h.play()">سورةالماعون</button>
+<button onclick="g.play()">سورة الكوثر</button>
+<button onclick="f.play()">سورةالكافرون</button>
+<br>
+<br>
+<fieldset id="ff">
+<legend>أناشيد قرآن</legend>
+<b id="uuu">أنشد معي</b>
+<br>
+<button onclick="k.play()">🎀</button>
+<button onclick="l.play()">✨</button>
+<button onclick="m.play()">🎁</button>
+<button onclick="n.play()">🌱</button>
+<button class="stop">STOP</button>
+</fieldset>
+</fieldset>
+</center>
+<script> 
+var q =new Audio();
+q.src="sound/001.mp3"
+var a =new Audio();
+a.src="sound/114.mp3"
+var b =new Audio();
+b.src="sound/113.mp3"
+var c =new Audio();
+c.src="sound/112.mp3"
+var d =new Audio();
+d.src="sound/111.mp3"
+var e =new Audio();
+e.src="sound/110.mp3"
+var f =new Audio();
+f.src="sound/109.mp3"
+var g =new Audio();
+g.src="sound/108.mp3"
+var h =new Audio();
+h.src="sound/107.mp3"
+var i =new Audio();
+i.src="sound/106.mp3"
+var j =new Audio();
+j.src="sound/105.mp3"
+var k =new Audio();
+k.src="sound/1.mp3"
+var l =new Audio();
+l.src="sound/2.mp3"
+var m =new Audio();
+m.src="sound/3.mp3"
+var n =new Audio();
+n.src="sound/4.mp3"
+ 
+ let STOP=document.querySelector(".stop")
+ STOP.onclick=function(){
+     window.location.reload();
+ }
+</script>
+</body>
+</html>
